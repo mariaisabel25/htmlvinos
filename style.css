@@ -1,0 +1,62 @@
+html{
+    background-color:darkslategrey;
+}
+
+.grancaja{
+    width: 100%;
+}
+
+.horizonte{
+   display: flex;
+   margin: 0px;
+   width: 100%;
+}
+
+.punto-informacion{
+    width: 100%;
+}
+
+.horizonte .punto-informacion .figure{
+    margin:10px;
+    padding:0px;
+    display:flex;
+    justify-content: center ;
+}
+
+.horizonte .punto-informacion figure img{
+    width: 100%;
+    display:flex;
+}
+
+
+.horizonte .punto-informacion:nth-child(1){
+    width: 95%;
+    margin: 55px auto;
+    justify-content: right;
+
+    
+}
+
+.horizonte .punto-informacion:nth-child(2){
+    width: 100%;
+    margin: 65px auto;
+    justify-content:center;
+    
+}
+
+.horizonte .punto-informacion div a{
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    color: coral;
+    font-size: 1.1rem;
+
+
+.horizonte .punto-informacion div p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: white
+    font-size: 1.1rem;
+    }
+
+    .horizonte .punto-informacion div p{
+        justify-content: center;
+    }

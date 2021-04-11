@@ -3,60 +3,82 @@ html{
 }
 
 .grancaja{
-    width: 100%;
+    width: 90%;
 }
 
 .horizonte{
    display: flex;
    margin: 0px;
-   width: 100%;
+   width: 90%; 
+   background-size: 100%;
 }
 
-.punto-informacion{
-    width: 100%;
+.punto-informacion:nth-child(1){
+    background-image: url("http://4.bp.blogspot.com/-xTEjs5Vi4v4/UD-RT2y9eFI/AAAAAAAAi30/vwfksN9fKvE/s1600/Perro-Pitbull_Fondos-de-Pantalla-HD-de-Perros.jpg");
+    background-size: 100% 150%;
+    width: 50%;
+    background-repeat: no-repeat;
+    padding: 120px;
 }
 
-.horizonte .punto-informacion .figure{
-    margin:10px;
-    padding:0px;
-    display:flex;
-    justify-content: center ;
+.punto-informacion:nth-child(1) p{
+    margin: 0px;
+    padding: 0px;
 }
 
-.horizonte .punto-informacion figure img{
-    width: 100%;
-    display:flex;
+.punto-informacion:nth-child(2){
+    background-image: url("https://www.cookieswil.com/media/blog/870x/min/4967-204423-labrador-retrevier.jpg"); 
+    background-size: 100% 150%;
+    color: coral;
+    width: 50%;
+    background-repeat: no-repeat;
+    padding: 120px;
+   
 }
 
-
-.horizonte .punto-informacion:nth-child(1){
-    width: 95%;
-    margin: 55px auto;
-    justify-content: right;
-
+.horizonte div{
+    margin-top: 15px;
+    margin: 10px;
+    height: 30vh;
+    padding-right: 7px;
     
 }
 
-.horizonte .punto-informacion:nth-child(2){
-    width: 100%;
-    margin: 65px auto;
-    justify-content:center;
-    
+.punto-informacion div{
+    margin-right: 100px;
+    width: 250px;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
 
 .horizonte .punto-informacion div a{
     text-decoration: none;
     font-family: Arial, Helvetica, sans-serif;
     color: coral;
-    font-size: 1.1rem;
+    font-size: 20px;
 }
 
 .horizonte .punto-informacion div p{
     font-family: Arial, Helvetica, sans-serif;
-    color: white;
-    font-size:1.1rem;
+    color: azure;
+    font-size:1.2rem;
+    text-align: left;
+    padding-left: 0px;
+    padding-bottom:4px;
+    margin-top: 290px;
+    
+    
 }
 
-.horizonte .punto-informacion div p{
-        justify-content: center;
+.punto-informacion{
+    margin: 0px;
+    padding: 0px;
+    justify-content: left;
+    padding-left: 250px;
+
+}
+
+.texto p{
+   justify-content: left; 
 }
